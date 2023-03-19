@@ -8,4 +8,7 @@
 .clickMe {
     font-size: 24px;
     font-family: Helvetica, "Times New Roman", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
 }
