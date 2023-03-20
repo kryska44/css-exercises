@@ -17,30 +17,24 @@ body{
   font-weight: 800;
 }
 
-
 .button {
-  font-size: 20px;
-  font-weight: bold;
-}
-.button, .confirm {
-  background: green;
-  color: white;
-} 
-
-.button, .cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  font-weight: bold;
 }
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+.confirm {
+  background: green;
+  color: white;
+} 
 
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+div.text > .child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
